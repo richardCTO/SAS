@@ -1,0 +1,121 @@
+proc format;
+
+	
+	value dummyf	0 = "No"
+				1 = "Yes";
+
+	value sexf	1= "Male"
+			2= "Female";
+
+	value Racef	1 = "White"
+			2 = "African American"
+			3 = "Latino"
+			4 = "Other";
+		
+	value noyesuf	1= "Yes"
+				2 = "No"	
+				9 = "Unknown or no response";
+
+	value noyesf	1 = "Yes"
+				2 = "No"
+				9 = "Unknown or no response";
+	
+	value locatnf	1 = "Front, center"
+				2 = "Front, right"
+				3 = "Front, left"
+				4 = "Back"
+				5 = "All over"
+				6 = "No pain"
+				9 = "Unknown or no response";	
+
+	value qualityf	1 = "Sharp"
+				2 = "Dull"
+				3 = "Stabbing"
+				4 = "No quality" 
+				9 = "Unknown or no response";
+
+	value timef	1 = "Moments"
+			2 = "Minutes"
+			3 = "Hours"
+			4 = "No time"
+			9 = "Unknown or no response";
+
+	value atypf	1 = "Yes"
+			2 = "No"
+			3 = "No chest pain, + CAD history or ECG (silent)"
+			4 = "No chest pain, - CAD history and ECG"
+			5 = "Atypical chest pain, - CAD and ECG";
+
+	value typf       	1 = "Yes"
+				2 = "No"
+				3 = "No chest pain, + CAD history or ECG (silent)"
+				4 = "No chest pain, - CAD history and ECG"
+				5 = "Typical chest  pain,  - CAD and ECG";
+
+	value A_Tecgf
+			1 = "Atypical chest pain, + ECG change or MI"
+			2 = "Typical chest pain, + ECG change or MI"
+			3 = "No pain, + ECG change (silent MI/ischemia) MI, or CHF"
+			4 = "No pain, - ECG change   (no CAD)"
+			5 = "Typical pain - ECG change"   
+			6 = "Atypical pain - ECG change";
+	
+
+	value casef	1 = "Incident case CAD"
+			2 = "Prevalent case CAD"
+			3 = "No case, no CAD"
+			4 = "No case, not enough data to analyze"
+			5 = "No patient identifiers but otherwise complete data";
+
+	value yrschanf	0 = "No change in ECG";
+	
+	value Ecgchngf	0 = "No change"
+				1 = "Infarct"
+				2 = "Stelev"
+				3 = "Stdep"
+				4 = "Twave"
+				5 = "INSTab"
+				6 = "Multiple changes";
+
+	value ecgprogf
+		1 = "Yes (infarct)"
+		2 = "Changes stay the same"
+		3 = "Increase in severity of changes but not infarct"
+		4 = "Decrease in severity of changes or return to normal"	
+		0 = "No change in ECG";
+
+	value beckdepf	1 = " < 16, no depression"
+				2 = " > 16, yes depression";
+
+	value healthf	1 = "Excellent"
+				2 = "Good"
+				3 = "Fair"
+				4 = "Poor"
+				9 = "Unknown";
+
+	value ln_fd_cf	1 = "Yes, since last visit"
+				2 = "Yes, prior to last visit"
+				3 = "No" 	 	 	
+				9 = "Unknown or no response";
+				
+	value ecgonlyf	0 = "No ECG change at all"
+				1 = "Yes, ECG change but with NO MI or Angina"
+				2 = "Yes, ECG change but with MI or Angina"
+				9 = "Unknown or no response";
+
+	value ecgmiyf	0 = "No Silent MI at all"
+				1 = "Yes, silent MI , no symtoms"
+				2 = "Yes, silent MI with symptoms";	
+	
+	value cadf		1 = "Yes"
+				2 = "No"
+				3 = "Yes"
+				4 = "Yes"
+				5 = "Yes";
+
+	value agerankf	1 = "62 - 70"
+				2 = "71 - 75"
+				3 = "76 - 80"
+				4 = "81 - 85"
+				5 = "86 - 90"
+				6 = "90+";

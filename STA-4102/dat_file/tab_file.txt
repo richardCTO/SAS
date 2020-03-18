@@ -1,0 +1,4 @@
+Id	dbirth	gender	age	sbp	dbp	admitdat
+1	03/10/1955	male	70	125	80	02/03/1989
+2	01/20/1968	female	65	120	80	12/23/1990
+3	03/07/2001	male	71	.	130	12/05/2002
