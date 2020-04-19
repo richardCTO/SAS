@@ -19,12 +19,13 @@ libname myxlsx xlsx "\\Client\A$\SAS\STA-4102\dat_file\Project2.xlsx";
 data Project2;
 	set myxlsx.DATA;
 run;
+
 /*  sorts the data by id number and symptom number*/
 proc sort data = Project2;
 	by id_no symptom_no;
 run;
 
-/*   creates the columns symptom1 through symptom5*/
+/*  creates the columns symptom1 through symptom5*/
 data temp1;
     array symptoms[5] symptom1-symptom5;
 	retain symptom1-symptom5;
